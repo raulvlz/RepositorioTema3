@@ -11,10 +11,10 @@ object  FuncionesPrimeraClase extends App {
   //val funcionCuadratica = (x: Int) => x * x
   //List(1,2,3).map(funcionCuadratica(_)).foreach(println)
 
-  //Funciones que reciben otras funciones
+  // Funciones que reciben otras funciones
   //List(1,2,3).filter((x: Int) => x>1).foreach(println)
 
-  //Funciones que retornan otras funciones
+  // Funciones que retornan otras funciones
   def saludar(prefix: String) = {
     (name: String) => println(s"$prefix $name")
   }
@@ -24,5 +24,7 @@ object  FuncionesPrimeraClase extends App {
 
   val Buenos_dias = saludar("Buenos_dias")
   Buenos_dias("Gabriel")
+
+
 
 }
