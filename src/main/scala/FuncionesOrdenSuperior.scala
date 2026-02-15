@@ -5,7 +5,7 @@ object FuncionesOrdenSuperior extends App {
   def format(number: Double) = f"$number%.2f"
 
   format(3.422343) //Tradicional
-  format{val constante = 10; 123.2334 * constante} //Bloque de expresión
+  // format{val constante = 10; 123.2334 * constante} //Bloque de expresión
 
   //Funciones de orden superior, reciben o devuelven funciones como resultado
 
