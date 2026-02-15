@@ -8,8 +8,9 @@ object  FuncionesPrimeraClase extends App {
 
   // Funciones como valor
 
-  val funcionCuadratica = (x: Int) => x * x
-  List(1,2,3).map(funcionCuadratica(_)).foreach(println)
+  //val funcionCuadratica = (x: Int) => x * x
+  //List(1,2,3).map(funcionCuadratica(_)).foreach(println)
 
-
+  //Funciones que reciben otras funciones
+  List(1,2,3).filter((x: Int) => x>1).foreach(println)
 }
